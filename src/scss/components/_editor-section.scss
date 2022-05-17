@@ -1,0 +1,48 @@
+.revolutionary-editor {
+    background-color: $white-clr;
+}
+
+.button-subtitle {
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 25px;
+    margin-bottom: 79px;
+    color: $secondary-txt-clr;
+
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $darker-purple-clr;
+    margin-bottom: 28px;
+}
+
+.main-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: $dark-txt-clr;
+    margin-bottom: 36px;
+}
+
+.icons-container {
+    margin-bottom: 120px;
+}
+
+.editor-icons {
+    margin-bottom: 20px;
+}
+@media(min-width:480px){
+    .icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .editor-icons {
+        margin-bottom: 0;
+    }
+}
