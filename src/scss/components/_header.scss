@@ -2,8 +2,9 @@
 header {
     background-image: url("../image/bg-main.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     position: relative;
+   
 }
 
 nav {
@@ -30,11 +31,13 @@ nav {
 }
 
 .nav-part-1 {
-    display: grid;
-    grid-template-columns: 50px 1fr 30px;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-        "item1 item2 item3";
+    display: flex;
+    justify-content: space-between;
+    // display: grid;
+    // grid-template-columns: 50px 1fr 30px;
+    // grid-template-rows: 1fr;
+    // grid-template-areas:
+    //     "item1 item2 item3";
     gap: 10px;
     padding-top: 34px;
 
@@ -81,7 +84,7 @@ nav {
     line-height: 15px;
     color: $white-clr;
     max-width: 119px;
-    margin: 0 auto;
+    // margin: 0 auto;
     padding: 11px 20px;
 }
 
@@ -159,13 +162,13 @@ h1 {
         text-align: center;
     }
     .nav-part-1 {
-        grid-template-columns: 160px 1fr 150px;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "item1 . item2"
-            "item3 item3 item3";
+        // grid-template-columns: 160px 1fr 150px;
+        // grid-template-rows: 1fr 1fr;
+        // grid-template-areas:
+        //     "item1 . item2"
+        //     "item3 item3 item3";
 
-        row-gap: 25px;
+        // row-gap: 25px;
         padding-top: 34px;
     }
     .btn-buy-now {
@@ -192,10 +195,10 @@ h1 {
         
     }
     .nav-part-1 {
-        grid-template-columns: 180px 1fr 150px;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "item1 item3 item2";
+        // grid-template-columns: 180px 1fr 150px;
+        // grid-template-rows: 1fr;
+        // grid-template-areas:
+        //     "item1 item3 item2";
     }
     .nav-part-2{
         display: flex;
